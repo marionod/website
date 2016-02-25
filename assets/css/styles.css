@@ -1,0 +1,12 @@
+#navBar {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px; }
+  #navBar .navItem {
+    font-family: "Lato", light;
+    font-weight: 300;
+    font-size: 20px;
+    display: flex;
+    padding: 0px 30px; }
+
+/*# sourceMappingURL=styles.css.map */
