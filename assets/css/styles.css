@@ -1,12 +1,15 @@
+.underline {
+  border-bottom: 1px solid #70bde8; }
+
 #navBar {
   display: flex;
   justify-content: center;
   padding-top: 10px; }
-  #navBar .navItem {
+  #navBar a {
     font-family: "Lato", light;
     font-weight: 300;
     font-size: 20px;
     display: flex;
-    padding: 0px 30px; }
+    margin: 0px 30px; }
 
 /*# sourceMappingURL=styles.css.map */

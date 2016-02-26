@@ -1,16 +1,21 @@
 
+$blue: rgb(112,189,232);
+
+.underline {
+	border-bottom: 1px solid $blue;
+}
 
 #navBar {
 	display: flex;
 	justify-content: center;
 	padding-top: 10px;
 
-	.navItem {
+	a {
 		font-family: "Lato", light;
 		font-weight: 300;
 		font-size: 20px;
 		display: flex;
-		padding: 0px 30px;
+		margin: 0px 30px;
 	}
 }
 
