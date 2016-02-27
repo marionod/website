@@ -15,7 +15,12 @@ $blue: rgb(112,189,232);
 		font-weight: 300;
 		font-size: 20px;
 		display: flex;
+		transition: 0.3s ease;
 		margin: 0px 30px;
+	}
+
+	a:hover {
+    transform: scale(1.2, 1.2);
 	}
 }
 
