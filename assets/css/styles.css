@@ -3,7 +3,8 @@
 
 body {
   display: flex;
-  flex-flow: column; }
+  flex-flow: column;
+  align-items: center; }
 
 #navBar {
   display: flex;
@@ -21,9 +22,9 @@ body {
 
 img {
   border-radius: 50%;
-  max-width: 230px;
-  max-height: 95px;
+  height: 300px;
   width: auto;
-  height: auto; }
+  /*height: auto;*/
+  margin-top: 50px; }
 
 /*# sourceMappingURL=styles.css.map */

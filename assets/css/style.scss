@@ -8,6 +8,7 @@ $blue: rgb(112,189,232);
 body {
 	display: flex;
 	flex-flow: column;
+	align-items: center;
 }
 
 #navBar {
@@ -31,9 +32,9 @@ body {
 
 img {
 	border-radius: 50%;
-	max-width:230px;
-  max-height:95px;
+	height: 300px;
   width: auto;
-  height: auto;
+  /*height: auto;*/
+ 	margin-top: 50px;
 }
 
