@@ -5,6 +5,11 @@ $blue: rgb(112,189,232);
 	border-bottom: 1px solid $blue;
 }
 
+body {
+	display: flex;
+	flex-flow: column;
+}
+
 #navBar {
 	display: flex;
 	justify-content: center;
@@ -20,7 +25,15 @@ $blue: rgb(112,189,232);
 	}
 
 	a:hover {
-    transform: scale(1.2, 1.2);
+		transform: scale(1.2, 1.2);
 	}
+}
+
+img {
+	border-radius: 50%;
+	max-width:230px;
+  max-height:95px;
+  width: auto;
+  height: auto;
 }
 

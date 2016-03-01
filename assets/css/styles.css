@@ -1,6 +1,10 @@
 .underline {
   border-bottom: 1px solid #70bde8; }
 
+body {
+  display: flex;
+  flex-flow: column; }
+
 #navBar {
   display: flex;
   justify-content: center;
@@ -14,5 +18,12 @@
     margin: 0px 30px; }
   #navBar a:hover {
     transform: scale(1.2, 1.2); }
+
+img {
+  border-radius: 50%;
+  max-width: 230px;
+  max-height: 95px;
+  width: auto;
+  height: auto; }
 
 /*# sourceMappingURL=styles.css.map */
